@@ -8,7 +8,7 @@ A starter Flask backend for a **RecipeShare** project using:
 - Flask-Migrate
 - python-dotenv
 
-This starter is intentionally scoped for the **pre-authentication** phase of the course.
+
 
 ## Project Structure
 
@@ -52,9 +52,9 @@ source .venv/bin/activate
 
 ### Windows PowerShell
 
-```powershell
-py -m venv .venv
-.venv\Scripts\Activate.ps1
+```cmd
+python -m venv .venv
+.venv\Scripts\Activate.bat
 ```
 
 ## 2. Install dependencies
@@ -142,12 +142,4 @@ Example body:
 }
 ```
 
-## Suggested Next Lesson
 
-Add authentication:
-
-- password hashing
-- registration
-- login
-- protected recipe creation
-- ownership checks
